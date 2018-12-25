@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <title>BlueTooth Channel</title>
+    <script>
+void async function() {
+  const _ = await navigator.bluetooth.requestDevice({ acceptAllDevices: true });
+  console.log(_);
+}()
+    </script>
   </head>
   <body>
     <h1>BlueTooth Channel</h1>
