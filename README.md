@@ -18,3 +18,9 @@ Just `start index.html` or see the [**online demo**](https://tomashubelbauer.git
 ### Wait for beacons support in Web Bluetooth
 
 https://github.com/WebBluetoothCG/web-bluetooth/issues/231
+
+### Prototype an iOS application exposing its bundle/group in Files using Web Bluetooth
+
+The iOS application should be able to advertise unlike the web API and Chrome should be
+able to use Web Bluetooth to connect to it. And potentially hand over to another/default
+browser once the connection is established using a URL with WebRTC SDP in arguments.
